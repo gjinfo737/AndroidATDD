@@ -17,3 +17,13 @@ end
 Then /^I do not see the error message$/ do
   on(UserNamePage).should_not be_showing_error_message
 end
+
+Then /^I am at the recipe selection page$/ do
+  on(RecipeSelectionPage).should be_active
+end
+
+Given /^I have navigated to the recipe page$/ do
+  on(UserNamePage).user_name = "Carlos Danger"
+  on(UserNamePage).start
+  on(RecipeSelectionPage).should be_active
+end
