@@ -23,6 +23,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".UserStartActivity"></activity>
+        <activity android:name=".RecipeMainScreenActivity"></activity>
+        <activity android:name=".SelectRecipeActivity"></activity>
+        <activity android:name=".activities.ttdo.CookingAndServingActivity"></activity>
+        <activity android:name=".activities.ttdo.IngredientsActivity"></activity>
+        <activity android:name=".activities.ttdo.PreparationsActivity"></activity>
     </application>
 
 </manifest>

@@ -6,9 +6,9 @@ import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import com.cukeshow.mycookbook.activities.ttdo.CookingAndServingActivity;
-import com.cukeshow.mycookbook.activities.ttdo.IngredientsActivity;
-import com.cukeshow.mycookbook.activities.ttdo.PreparationsActivity;
+import com.aj.androidatdd.activities.ttdo.CookingAndServingActivity;
+import com.aj.androidatdd.activities.ttdo.IngredientsActivity;
+import com.aj.androidatdd.activities.ttdo.PreparationsActivity;
 
 public class ThingsToDoClickListener implements OnClickListener {
 

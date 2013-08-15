@@ -1,4 +1,4 @@
-package com.cukeshow.mycookbook.activities.ttdo;
+package com.aj.androidatdd.activities.ttdo;
 
 import java.util.ArrayList;
 import java.util.List;
