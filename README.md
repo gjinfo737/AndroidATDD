@@ -1,7 +1,7 @@
 AndroidATDD :ok_hand:
 ==================
 
-A demo for using cucumber tests for Android apps using Gametel.
+Demo of Gametel and Cucumber automated tests for Android.
 
 -----------------
 What are the knowledge requirements?
