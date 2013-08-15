@@ -1,16 +1,27 @@
 AndroidATDD
 ==================
 
-A demo for adding cucumber tests for Android apps.
+A demo for adding cucumber tests for Android apps using Gametel.
 
 -----------------
-What
+What are the knowledge requirements?
 ==================
-1. ATDD
-2. gametel and brazenhead 
-3. Take a look: https://github.com/leandog/gametel
-   
-	
+1. Android
+2. Ruby/Cucumber
+3. Gherkin syntax
+
+-----------------
+Who is this for?
+==================
+Anyone who desires to have practical tools to write automated tests for an Android application
+
+-----------------
+What is covered
+==================
+1. ATDD basics
+2. gametel and brazenhead: https://github.com/leandog/gametel
+3. Basic gametel accessors  
+
 -----------------
 Setup
 ==================
@@ -21,3 +32,5 @@ Setup
 5. test: bundle exec cumber
 
 -----------------
+
+
