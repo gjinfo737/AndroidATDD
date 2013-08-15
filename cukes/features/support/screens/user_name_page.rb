@@ -8,4 +8,7 @@ class UserNamePage
     has_text?("Enter Name") and has_text?("Start")
   end
   
+  def is_showing_message? message
+    has_text?(message)
+  end
 end

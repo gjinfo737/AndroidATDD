@@ -11,5 +11,5 @@ And /^I press the start button$/ do
 end
 
 Then /^I see the error message "(.*?)"$/ do |message|
-  pending # express the regexp above with the code you wish you had
+  on(UserNamePage).should be_showing_message(message)
 end
