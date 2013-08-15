@@ -13,3 +13,7 @@ end
 Then /^I see the error message "(.*?)"$/ do |message|
   on(UserNamePage).should be_showing_message(message)
 end
+
+Then /^I do not see the error message$/ do
+  on(UserNamePage).should_not be_showing_error_message
+end

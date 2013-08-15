@@ -50,6 +50,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:text="You must enter a name."
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textColor="#f00"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
