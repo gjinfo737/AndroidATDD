@@ -14,7 +14,7 @@ Gametel.apk_path = "../app/bin/AndroidATDD-debug.apk"
 Gametel.keystore = keystore
 
 Before do
-  @driver = Gametel.start("Navigator")
+  @driver = Gametel.start("UserStartActivity")
 end
 
 After do
