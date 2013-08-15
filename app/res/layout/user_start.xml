@@ -43,4 +43,13 @@
         android:layout_marginTop="14dp"
         android:src="@drawable/cookokay" />
 
+    <TextView
+        android:id="@+id/tv_user_name_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="You must enter a name."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
 </RelativeLayout>
