@@ -32,5 +32,18 @@ Setup
 5. test: bundle exec cumber
 
 -----------------
-
-
+Accessors and Properties
+==================
+1. View properties: https://github.com/leandog/gametel/blob/master/lib/gametel/views/view.rb
+	[:clickable, :enabled, :focusable, :focused, :selected, :shown]
+2. Accessors: https://github.com/leandog/gametel/blob/master/lib/gametel/accessors.rb
+	
+-----------------
+Examples
+==================
+```ruby
+text(:user_name, :id => 'et_user_name')
+button(:start, :id => 'btn_start')
+view(:error_message, :id => 'tv_user_name_error')
+has_text?("Preparation Steps") and has_text?("Ingredients")
+```
