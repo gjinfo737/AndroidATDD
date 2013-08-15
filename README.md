@@ -14,8 +14,9 @@ What
 Setup
 ==================
 1. feature folder structure
-2. gemfile,
-3. bundle install,
-4. test: bundle exec cumber
+2. testgen
+3. internet permission needed in AndroidManifest
+4. bundle install
+5. test: bundle exec cumber
 
 -----------------
