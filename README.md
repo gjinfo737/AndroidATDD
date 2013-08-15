@@ -14,8 +14,7 @@ What
 -----------------
 Setup
 ==================
-1. feature folder structure
-a.testgen gem helps: https://github.com/cheezy/testgen#android-testing
+1. feature folder structure: Use 'testgen' gem https://github.com/cheezy/testgen#android-testing
 2. testgen project <project_name> --with-gametel
 3. IMPORTANT internet permission needed in AndroidManifest
 4. bundle install
