@@ -19,7 +19,9 @@ Who is this for?
 What is covered
 ==================
 1. ATDD basics
-2. gametel and brazenhead: https://github.com/leandog/gametel
+2. gametel and brazenhead: 
+	* https://github.com/leandog/gametel
+	* https://github.com/leandog/brazenhead
 3. Basic gametel accessors  
 
 -----------------
