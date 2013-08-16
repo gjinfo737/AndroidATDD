@@ -27,11 +27,11 @@ What is covered
 -----------------
 Setup
 ==================
-1. feature folder structure: Use 'testgen' gem https://github.com/cheezy/testgen#android-testing
-2. testgen project <project_name> --with-gametel
+1. feature folder structure: Use the [`testgen` gem](https://github.com/cheezy/testgen#android-testing)
+2. `testgen project <project_name> --with-gametel`
 3. IMPORTANT internet permission needed in AndroidManifest :bangbang:
-4. bundle install
-5. test: bundle exec cumber :shipit:
+4. `bundle install`
+5. test: `bundle exec cumber` :shipit:
 
 -----------------
 Accessors and Properties
